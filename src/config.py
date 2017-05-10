@@ -25,13 +25,17 @@ settings = {
         "Plotting": { "name": "Plotting", "count": 10, "display": True, "order": 9 },
         "TIFFLZW": { "name": "TIFFLZW","count": 10, "display": True, "order": 10 },
         "Video": { "name": "Full Motion Video", "count": 10, "display": True, "order": 11 },
-        "Video": { "name": "Full Motion Video", "count": 10, "display": True, "order": 11 },
         # Extensions - ArcGIS Pro
         "networkAnalystP": { "name": "Network Analyst (Pro)", "count": 10, "display": False,  "order": 12 },
         "spatialAnalystP": { "name": "Spatial Analyst (Pro)", "count": 10, "display": False,  "order": 13 },
         "3DAnalystP": { "name": "3D Analyst (Pro)", "count": 10, "display": False, "order": 14 }
     },
-    "extensions": ["Grid", "MrSID", "Network", "Plotting", "TIFFLZW", "TIN", "Video", "networkAnalystP", "spatialAnalystP",  "3DAnalystP"],
+    "extensions": [
+	    "Grid", "MrSID", "Network", 
+	    "Plotting", "TIFFLZW", "TIN", 
+	    "Video", "networkAnalystP", "spatialAnalystP",  
+	    "3DAnalystP"
+    ],
     "lmutilPath": r"\\{server}\c$\Program Files (x86)\ArcGIS\License10.5\bin\lmutil.exe",
     "licenseFile": r"\\{server}\c$\Program Files (x86)\ArcGIS\License10.5\bin\service.txt"
 }
